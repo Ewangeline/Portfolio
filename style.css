@@ -1,25 +1,51 @@
 /* 
-dark brown:  #2b1f19
-light brown: #b76a40 
-darker brown #b76a40
-light light brown:  #d1a77c
-background: #dad0c4
+green (actually light brown) - #d1a77c
+white (actually dark bone white) -#dad0c4
+black (actually dark brown) - #2b1f19
+background (actually dark bone white) - #dad0c4
+gray (actually light dusky brown) - #d1a77c
 */
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: sans-serif;
-    background-color:#dad0c4;
+    background-color: #dad0c4;
+    margin: 0%;
 }
 
-h1,
 h2 {
-    color:#b76a40;
+    color: #d1a77c;
 }
+
 .light-header {
-    color:#b76a40
+    color: #d1a77c
 }
 
 header {
+    color: #d1a77c;
+}
+
+.img {
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    width: auto;
+    /* you can use % */
+    height: 540px;
+    font-size: 300%;
+}
+
+.green {
     color: #d1a77c;
 }
 
@@ -30,33 +56,32 @@ nav {
 nav a {
     color: #dad0c4;
 }
-.content {
 
-}
+.content {}
+
 .eb {
     color: #dad0c4;
-
 }
+
 .dark {
     background-color: #2b1f19;
-    color:#dad0c4;
-
+    color: #dad0c4;
 }
-.skills {
 
-}
+.skills {}
+
 .about-me {
     color: #2b1f19;
-
 }
+
 .portfolio {
-    background-color: #b76a40;
-
+    background-color: #d1a77c;
 }
+
 .dark-top {
     background-color: #2b1f19;
 }
-.contact {
-    background-color: #b76a40;
 
+.contact {
+    background-color: #d1a77c;
 }
