@@ -1,0 +1,24 @@
+/* 
+dark brown: #1d1a07
+light brown: #B07C3A
+green: #8b9608
+background: rgb(250, 240, 226)
+*/
+
+body {
+    font-family: sans-serif;
+    background-color:  rgb(250, 240, 226);
+}
+h1,
+h2 {
+    color: #a45c18;
+}
+header {
+color:#8b9608;
+}
+nav {
+    background-color: #1d1a07;
+}
+nav a{
+    color: #B07C3A;
+}
