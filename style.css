@@ -1,24 +1,62 @@
 /* 
-dark brown: #1d1a07
-light brown: #B07C3A
-green: #8b9608
-background: rgb(250, 240, 226)
+dark brown:  #2b1f19
+light brown: #b76a40 
+darker brown #b76a40
+light light brown:  #d1a77c
+background: #dad0c4
 */
 
 body {
     font-family: sans-serif;
-    background-color:  rgb(250, 240, 226);
+    background-color:#dad0c4;
 }
+
 h1,
 h2 {
-    color: #a45c18;
+    color:#b76a40;
 }
+.light-header {
+    color:#b76a40
+}
+
 header {
-color:#8b9608;
+    color: #d1a77c;
 }
+
 nav {
-    background-color: #1d1a07;
+    background-color: #2b1f19;
 }
-nav a{
-    color: #B07C3A;
+
+nav a {
+    color: #dad0c4;
+}
+.content {
+
+}
+.eb {
+    color: #dad0c4;
+
+}
+.dark {
+    background-color: #2b1f19;
+    color:#dad0c4;
+
+}
+.skills {
+
+}
+.about-me {
+    color: #2b1f19;
+
+}
+.portfolio {
+    background-color: #b76a40;
+
+}
+.dark-top {
+    background-color: #2b1f19;
+}
+.contact {
+    background-color: #b76a40;
+
 }
