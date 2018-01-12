@@ -1,9 +1,9 @@
 /* 
-green (actually light brown) - #d1a77c
-white (actually dark bone white) -#dad0c4
-black (actually dark brown) - #2b1f19
-background (actually dark bone white) - #dad0c4
-gray (actually light dusky brown) - #d1a77c
+green (actually light brown) - #604a36
+white (actually dark bone white) -#faf6f0
+black (actually dark brown) - #301701
+background (actually dark bone white) - #faf6f0
+gray (actually light dusky brown) - #604a36
 */
 
 
@@ -21,67 +21,71 @@ html {
 
 body {
     font-family: sans-serif;
-    background-color: #dad0c4;
+    background-color: #faf6f0;
     margin: 0%;
+}
+h1 {
+    text-shadow: -1px 0 #c2a693, 0 1px #c2a693, 1px 0 #c2a693, 0 -1px #c2a693;
 }
 
 h2 {
-    color: #d1a77c;
+    color: #604a36;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .light-header {
-    color: #d1a77c
+    color: #604a36
 }
 
 header {
-    color: #d1a77c;
+    color: #604a36;
 }
 
 .img {
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
     width: auto;
     /* you can use % */
-    height: 540px;
+    height: 33vw;
     font-size: 300%;
 }
 
 .green {
-    color: #d1a77c;
+    color: #604a36;
 }
 
 nav {
-    background-color: #2b1f19;
+    background-color: #301701;
 }
 
 nav a {
-    color: #dad0c4;
+    color: #faf6f0;
 }
 
 .content {}
 
 .eb {
-    color: #dad0c4;
+    color: #faf6f0;
 }
 
 .dark {
-    background-color: #2b1f19;
-    color: #dad0c4;
+    background-color: #301701;
+    color: #faf6f0;
 }
 
 .skills {}
 
 .about-me {
-    color: #2b1f19;
+    color: #301701;
 }
 
 .portfolio {
-    background-color: #d1a77c;
+    background-color: #604a36;
 }
 
 .dark-top {
-    background-color: #2b1f19;
+    background-color: #301701;
 }
 
 .contact {
-    background-color: #d1a77c;
+    background-color: #604a36;
 }
