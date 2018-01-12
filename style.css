@@ -1,9 +1,9 @@
-/* 
-green (actually light brown) - #604a36
-white (actually dark bone white) -#faf6f0
+/*
+green (actually light brown) - #967653
+white (actually dark bone white) -#DFD5C0
 black (actually dark brown) - #301701
-background (actually dark bone white) - #faf6f0
-gray (actually light dusky brown) - #604a36
+background (actually dark bone white) - #DFD5C0
+gray (actually light dusky brown) - #AEA385
 */
 
 
@@ -21,28 +21,28 @@ html {
 
 body {
     font-family: sans-serif;
-    background-color: #faf6f0;
+    background-color: #DFD5C0;
     margin: 0%;
 }
 h1 {
-    text-shadow: -1px 0 #c2a693, 0 1px #c2a693, 1px 0 #c2a693, 0 -1px #c2a693;
+    text-shadow: -1px 0 #AEA385, 0 1px #AEA385, 1px 0 #AEA385, 0 -1px #AEA385;
 }
 
 h2 {
-    color: #604a36;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #967653;
+
 }
 
 .light-header {
-    color: #604a36
+    color: #967653
 }
 
 header {
-    color: #604a36;
+    color: #967653;
 }
 
 .img {
-    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-image: url(https://static.pexels.com/photos/688990/pexels-photo-688990.jpeg);
     width: auto;
     /* you can use % */
     height: 33vw;
@@ -50,26 +50,36 @@ header {
 }
 
 .green {
-    color: #604a36;
+    color: #967653;
 }
+/* navigation bar */
 
 nav {
     background-color: #301701;
 }
+nav ul {
+    list-style: none;
+}
 
 nav a {
-    color: #faf6f0;
+    display: block;
+    color: #DFD5C0;
+    text-decoration: none;
+}
+nav a:hover,
+nav a:focus{
+    background-color: #967653;
 }
 
 .content {}
 
 .eb {
-    color: #faf6f0;
+    color: #DFD5C0;
 }
 
 .dark {
     background-color: #301701;
-    color: #faf6f0;
+    color: #DFD5C0;
 }
 
 .skills {}
@@ -79,7 +89,7 @@ nav a {
 }
 
 .portfolio {
-    background-color: #604a36;
+    background-color: #967653;
 }
 
 .dark-top {
@@ -87,5 +97,27 @@ nav a {
 }
 
 .contact {
-    background-color: #604a36;
+    background-color: #967653;
 }
+
+/* utilities */
+.accessible-hidden {
+    position: absolute;
+    top: 0;
+    left: -999px;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+    }
+
+    .accessible-hidden:focus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    clip: auto;
+    }
